@@ -445,14 +445,14 @@ body {
 
 }
 .buy_button_text{
-      padding: 10px;
-      font-size: 14px;
-      border: 2px solid #ee254a; 
-      border-radius: 999px; 
-      color: #ee254a;
-      font-size: 16px;
-      cursor: pointer;
-      text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #ee254a; 
+    border-radius: 999px; 
+    color: #ee254a;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .topnav .Pixelmator{
@@ -506,6 +506,10 @@ body {
     border-radius: 16px;
     margin-top: 15px;
 }
+
+
+
+
 /*Contenedor gris con imagen*/
 .contenedorGris{
   background: #e6e1e1;            /* fondo gris claro */
