@@ -341,7 +341,162 @@ body {
 }
 
 /*Aqui acaba lo mio del css*/
+@media (max-width: 768px) {
 
+    body {
+        overflow-x: hidden; 
+    }
+
+    .espacionegro, .espacioblanco {
+        padding-bottom: 50px;
+    }
+    
+    .contentenedornegro, .contentenedornegro2 {
+        width: 90%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    .contentenedornegro h1, .contentenedornegro2 h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        width: 100%; 
+    }
+    
+    .contentenedornegro p, .contentenedornegro2 p {
+        font-size: 16px;
+    }
+
+    .imagenegro {
+        width: 90%;
+    }
+    
+    .contenedor3cartas {
+        width: 95%;
+    }
+    
+    .cartasnegras {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card-title {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    
+    .card-description, .card-description2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+        margin-right: auto; 
+    }
+
+    .cartasnegras:last-child .card .card-description {
+        margin-right: 20px;
+        text-align: left;
+    }
+    
+    .card {
+        padding-bottom: 250px;
+    }
+
+    .contenedorvideo {
+        position: absolute;
+        width: 90%; 
+        height: 180px; 
+        bottom: 15px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        right: auto;
+    }
+    
+    .contenedorcartas {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .textitodeabajocard {
+        max-width: 100%; 
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    
+    .textitodeabajocard h3, .textitodeabajocard p {
+        font-size: 16px;
+    }
+
+    .cilindromitad {
+        width: 90%;
+    }
+
+    .barranegrodentro {
+        flex-wrap: wrap; 
+        width: 90%;
+        border-radius: 10px; 
+        margin: auto;
+    }
+
+    .barranegrodentro a {
+        flex-grow: 1;
+        text-align: center;
+        padding: 8px 10px;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .contenedorcartasmas {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .textitodeabajomascard {
+        max-width: 100%;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .carta4 {
+        width: 100%;
+        padding: 0;
+        margin: 30px auto;
+    }
+    
+    .carta5 {
+        width: 100%; 
+        padding: 10px;
+    }
+    
+    .carta5 p {
+        width: 80%;
+        font-size: 18px;
+    }
+    
+    .ultimo h1 {
+        font-size: 28px;
+    }
+    
+    .ultimo h3 {
+        font-size: 16px;
+    }
+    
+    .espaciosfoot {
+        flex-direction: column; 
+        padding: 0 20px;
+    }
+
+    .columnas {
+        margin-bottom: 20px;
+        align-items: flex-start;
+    }
+
+    .copyrigth {
+        padding: 0 20px 20px 20px;
+    }
+}
 
 
 
