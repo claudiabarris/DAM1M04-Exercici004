@@ -1076,3 +1076,126 @@ font-size: 16px;
     font-weight: bold;
     color: #000;
 }
+
+
+
+/*veersion para móvil*/
+@media (max-width: 1024px) {
+  .topnav .Pixelmator {
+    margin-right: 200px;
+  }
+  .contentenedorBlanco h1, 
+  .contentenedorBlanco p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .topnav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .topnav .Pixelmator {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .topnav2 .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .contentenedorBlanco h1 {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .contentenedorBlanco p {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .contenedorGris {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .contenedorSmartGuides {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .smartGuides,
+  .layerSytles {
+    width: 90%;
+    height: auto;
+  }
+
+  .contenedorSanFrancisco {
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+  }
+
+  .Contenedor_cartas_Grises {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Gris2 h1, .Gris2 p {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .contenedorEffects {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .contenedorEffects_img {
+    width: 90%;
+    margin: 0;
+  }
+
+  .tarjeta_RosiGris {
+    width: 90%;
+  }
+
+  .IconosAdvanced,
+  .IconosAdvanced2 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contenedor_designed h1 {
+    font-size: 40px;
+    width: 90%;
+  }
+
+  .contenedor_designed p {
+    width: 90%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contentenedorBlanco h1 {
+    font-size: 32px;
+  }
+  .contentenedorBlanco p {
+    font-size: 16px;
+  }
+  .Gris2 h1 {
+    font-size: 35px;
+  }
+  .contenedorGratLooking h1 {
+    font-size: 40px;
+  }
+}
