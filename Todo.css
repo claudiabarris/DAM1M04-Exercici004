@@ -650,10 +650,10 @@ body {
     padding: 20px;
 }
 .contentenedorBlanco img{
-    width: 60%;
+    width: 100%;
     display: block;
     margin: auto;
-    padding: 30px;
+    padding: -10px;
 }
 .contentenedorBlanco video{
     width: 90%;
@@ -758,6 +758,7 @@ font-size: 16px;
 .titulo h1{
     color: #000;
     font-size: 50px;
+    text-align: center;
 }
 .titulo .machine{
     color: rgb(255, 196, 0);
@@ -1139,7 +1140,7 @@ font-size: 16px;
   .contenedorSanFrancisco {
     flex-direction: column;
     width: 90%;
-    gap: 20px;
+    gap: 50px;
   }
 
   .Contenedor_cartas_Grises {
@@ -1150,7 +1151,17 @@ font-size: 16px;
   .Gris2 h1, .Gris2 p {
     width: 80%;
     font-size: 20px;
+    margin: auto;
   }
+  .titulo .machine{
+   
+    max-width: 40%;
+
+}
+.titulo p{
+    
+    text-align: center;
+}
 
   .contenedorEffects {
     flex-direction: column;
@@ -1173,6 +1184,20 @@ font-size: 16px;
     flex-direction: column;
     gap: 30px;
   }
+  .contenedorGratLooking img{
+    display: inline-block;
+    max-width: none;
+    height: auto;
+    width: 100%;
+    margin-top: -40px;
+}
+
+.contenedorGratLooking p{
+    padding: 10px;
+    margin: auto;
+    max-width: 80%px;
+    
+}
 
   .contenedor_designed h1 {
     font-size: 40px;
